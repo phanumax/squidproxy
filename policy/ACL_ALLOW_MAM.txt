@@ -1,0 +1,3 @@
+http://liveupdate.symantecliveupdate.com/*
+.symantec.com/*
+

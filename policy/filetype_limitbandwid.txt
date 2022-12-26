@@ -1,0 +1,15 @@
+\.mp3$
+\.rm$
+\.mpg$
+\.mpeg$
+\.avi$
+\.mov$
+\.ram$
+\.rm$
+\.rar$
+\.zip$
+\.exe$
+\.iso$
+\.msi$
+\.pdf$
+\.mp4$
