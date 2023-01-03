@@ -53,7 +53,9 @@ cache_dir null /tmp
 
 #Default:
 # access_log daemon:/var/log/squid/access.log squid
-access_log none
+logformat common     %>a %[ui %[un [%tl] "%rm %ru HTTP/%rv" %>Hs %<st %Ss:%Sh
+access_log daemon:/var/log/squid/access.log common
+#access_log none
 
 # cache_log /var/log/squid/cache.log
 cache_log /dev/null
