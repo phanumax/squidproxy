@@ -8,3 +8,9 @@ services:
       - ./squid.conf:/etc/squid/squid.conf
       - ./policy:/etc/squid/policy
     restart: always
+    logging:
+      driver: syslog
+      options:
+        syslog-address: "udp://10.1.0.94:514"
+        syslog-facility: "local7"
+        tag: "squid-proxy1"
