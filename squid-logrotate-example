@@ -1,0 +1,12 @@
+# Container log location
+/var/lib/docker/volumes/6268bd738029a20e2b72f746f10276a16ed86973f4b06ae89487e7afda7645ca/_data/*.log {
+weekly
+  compress
+  rotate 26
+  missingok
+  create
+  sharedscripts
+    postrotate
+      docker compose -f /home/ubuntu/squid/docker-compose.yaml restart > /dev/null 2>/dev/null || true # Restart container
+    endscript
+}
