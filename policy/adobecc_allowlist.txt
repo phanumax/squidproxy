@@ -1,0 +1,12 @@
+.adobe.com
+.adobedtm.com
+.adobeccstatic.com
+.adobe.io
+.adobelogin.com
+.cc-api.com
+.cc-api.net
+.cc-api.eu
+.cc-api.cn
+.typekit.net
+.assetsadobe.com
+adobe-api.arkoselabs.com
