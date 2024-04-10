@@ -410,3 +410,10 @@ news3/*
 .prachachat.net/*
 .khaosod.co.th/*
 .football.krobkruakao.com/*
+.broadcom.com
+.msftauth.net
+login.live.com
+.msauth.net
+fonts.googleapis.com
+.myhr.co.th
+.msauthimages.net
